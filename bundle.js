@@ -3,9 +3,9 @@
 (function ($) {
   // console.log("Hello Universe");
 
-  var map = L.map('map').setView([34.88593094075317, -96], 4.5);
+  var map = L.map('map').setView([34.88593094075317, -96], 5);
 
-  var mapboxTiles = L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png', {
+  var mapboxTiles = L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png', { zoom: 5,
     maxZoom: 18,
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, &copy;<a href="https://carto.com/attribution">CARTO</a>'
   }).addTo(map);
