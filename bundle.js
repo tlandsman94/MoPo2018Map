@@ -4,12 +4,6 @@
   // console.log("Hello Universe");
 
   var map = L.map('map').setView([34.88593094075317, 5.097656250000001], 5);
-
-  var mapboxTiles = L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png', {
-    maxZoom: 18,
-    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, &copy;<a href="https://carto.com/attribution">CARTO</a>'
-  }).addTo(map);
-
   // L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
   //     attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors • <a href="//350.org">350.org</a>'
   // }).addTo(map);
