@@ -1,7 +1,7 @@
 'use strict';
 
 (function ($) {
-  // console.log("Hello Universe");
+  // console.log("Hello Galaxy");
 
   var map = L.map('map').setView([34.88593094075317, 5.097656250000001], 5);
   // L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
