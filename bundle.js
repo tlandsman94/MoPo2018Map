@@ -57,7 +57,6 @@
           }
         }).addTo(map);
         console.log(states.getBounds());
-        map.fitBounds(states.getBounds());
       } //end of geoJson
     });
   }; // end of mapCentroid
