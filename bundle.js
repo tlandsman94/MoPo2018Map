@@ -3,7 +3,7 @@
 (function ($) {
   // console.log("Hello Universe");
 
-  var map = L.map('map').setView([34.88593094075317, 5.097656250000001], 2);
+  var map = L.map('map').setView([34.88593094075317, -96], 4.5);
 
   var mapboxTiles = L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png', {
     maxZoom: 18,
