@@ -1,7 +1,7 @@
 'use strict';
 
 (function ($) {
-  // console.log("Hello Universe");
+  // console.log("Hello World");
 
   var map = L.map('map').setView([34.88593094075317, -5], 5);
 
