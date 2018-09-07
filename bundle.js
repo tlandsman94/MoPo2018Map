@@ -20,13 +20,13 @@
   var getOffices = function getOffices() {
     return $.ajax({
       dataType: 'json',
-      url: '/data/list.json'
+      url: 'https://d3n8a8pro7vhmx.cloudfront.net/fairvote/pages/6778/attachments/original/1536332413/list.json?1536332413'
     });
   };
   var mapCentroid = function mapCentroid(offices) {
     return $.ajax({
       dataType: 'json',
-      url: '/data/state-centroids.geojson',
+      url: 'https://d3n8a8pro7vhmx.cloudfront.net/fairvote/pages/6778/attachments/original/1536332617/state-centroids.geojson?1536332617',
       success: function success(geojson) {
         var states = L.geoJson(geojson, {
           pointToLayer: function pointToLayer(feature, latlng) {
